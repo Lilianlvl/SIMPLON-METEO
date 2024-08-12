@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>LILIAN LEVEL - METEO</title>
+</head>
+<body>
+
+  <h1>Entrez une Ville</h1>
+
+    <form>
+        <input type="text" id="NomVille">
+    </br>
+    </br>
+    </br>
+        <button class="button-19">Recherche</button>
+    </form>
+  </br>
+
+
+    <table>
+        <tbody>
+          <tr>
+            <th scope="row">Ville</th>
+            <td id="ville"></td>
+          </tr><tr>
+            <th scope="row">Status</th>
+            <td id="status"></td>
+          </tr>
+          <tr>
+            <th scope="row">Température</th>
+            <td id="temp"></td>
+          </tr>
+          <tr>
+            <th scope="row">Humidité</th>
+            <td id="humidity"></td>
+          </tr>
+          <tr>
+            <th scope="row">Vitesse du vent</th>
+            <td id="vent"></td>
+          </tr>
+          <tr>
+            <th scope="row">...</th>
+            <td id="phrase"></td>
+          </tr>
+        </tbody>
+      </table>
+
+      
+    
+
+
+    <script src =js/apimeteo.js></script>
+    
+</body>
+</html>
